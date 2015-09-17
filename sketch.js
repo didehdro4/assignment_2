@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-	 var time = int(random(4));
+	 var time = int(random(5));
 	//	time = 0 ;
 
 
@@ -30,7 +30,7 @@ function draw() {
 		background(186, 164, 230);
 		fill(242, 111, 50);
 		ellipse(100, 289, 45, 45);
-	} else if (time == 4) {
+	} else  {
 		// night
 		background(3, 32, 61);
 		fill(250, 250, 250);
